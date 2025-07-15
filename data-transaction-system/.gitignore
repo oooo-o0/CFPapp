@@ -1,0 +1,25 @@
+.DS_Store
+main
+.*.swp
+*~
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# act
+.secrets
+
+tmp/
+.data
+.storage
+
+# Test binary, built with `go test -c`
+*.test
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+# Go workspace file
+go.work
